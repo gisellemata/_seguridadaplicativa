@@ -1,0 +1,21 @@
+inicio
+ para(i=0; i<=numeros=101; i++)
+ inicio 
+  Si(1%3 == 0)
+  inicio 
+    Escribe "Fizz";
+  Fin
+  Si(i%5 == 0)
+  Inicio
+    Escribe "Buzz";
+  Fin
+  Si(i%3 and i%5)
+  inicio 
+    Escribe "FizzBuzz";
+  Fin
+  Si(i%3 !=0 && i%5 !=0)
+  Inicio 
+    Escribe "i";
+  Fin
+ Fin
+Fin
