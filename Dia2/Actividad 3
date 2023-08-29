@@ -1,0 +1,3 @@
+i=$(nmap localhost | tail -n1 |  cut -d " " -f 6 | cut -d "(" -f 2) 
+echo "host activos" $i
+
