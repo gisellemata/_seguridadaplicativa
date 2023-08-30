@@ -1,0 +1,46 @@
+nombre_dicci = {
+
+"Juan":8,
+"Giselle":9,
+"Damian":5,
+"Ricardo":6,
+"Yaotzi":6,
+"Erick":7,
+"Mario":8,
+"Edagar":9,
+"Fernanda":5,
+"Daniel":6,
+"Jesus":7,
+"Damian":8,
+"Yemahia":6,
+"Eduardo":9,
+"Bryan":9,
+"Mariano":10,
+"Alberto":8,
+}
+
+#nombre_dicci["Alberto"]
+
+def promedio():
+    x=0  
+    y=0
+    for calif in nombre_dicci:
+        x=x+(nombre_dicci[calif])
+        y=y+1
+
+        
+    print (x/y)
+
+
+
+for calif in nombre_dicci:
+     if (nombre_dicci[calif] == 5 ):
+         print(calif)
+
+
+for calif in nombre_dicci:
+     if (nombre_dicci[calif] == 10 ):
+         print(calif)
+
+
+promedio()
