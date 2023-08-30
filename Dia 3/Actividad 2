@@ -1,0 +1,27 @@
+
+numero1 = int(input("Introduce un numero "))
+numero2 = int(input("Introduce otro numero "))
+ 
+print("¿Que operacion desea hacer?")
+print("Sumar")
+print("Restar")
+print("Multiplicar")
+print("Dividir")
+ 
+ 
+opcion = int(input("Elija una opcion ")
+if (opcion == 1):
+    suma = numero1 + numero2
+    print("El resultado es ") suma
+ 
+if (opcion == 2):
+    resta = numero - numero2
+    print 'El resultado es ', resta
+ 
+if (opcion == 3):
+    multi = numero * numero2
+    print 'El resultado es ', multi
+ 
+if (opcion == 4):
+    divi = numero / numero2
+    print 'El resultado es ', divi
