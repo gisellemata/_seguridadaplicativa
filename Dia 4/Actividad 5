@@ -1,0 +1,5 @@
+target: Mapeo de la aplicacion web
+proxy: Captura peticiones
+intruder: Hacer ataques de fuerza bruta
+Repeater: Emula las responses del servidor
+Dashboard: Puedes realizar un escaneo rapido de la aplicación web
